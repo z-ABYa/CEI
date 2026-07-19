@@ -1,0 +1,33 @@
+# =====================================================
+# RAG-System Requirements
+# =====================================================
+# Core ML / NLP
+torch>=2.2.0
+transformers>=4.40.0
+sentence-transformers>=2.7.0
+datasets>=2.19.0
+
+# Vector store
+faiss-cpu>=1.8.0
+
+# Chunking (LangChain used ONLY for RecursiveCharacterTextSplitter)
+langchain-text-splitters>=0.2.0
+
+# LLM runtime (local, free) - Ollama Python client
+ollama>=0.2.0
+
+# UI
+streamlit>=1.35.0
+
+# Data handling
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+
+# Evaluation metrics
+nltk>=3.8.1
+rouge-score>=0.1.2
+
+# Utilities
+tqdm>=4.66.0
+python-dotenv>=1.0.1
